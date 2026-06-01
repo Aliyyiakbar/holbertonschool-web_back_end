@@ -44,7 +44,7 @@ Each project directory has its own `README.md` with task details and file descri
 
 - `python_variable_annotations` — type annotations, duck typing, mypy validation, and advanced Python typing
 - `python_async_function` — asynchronous execution, coroutines, asyncio tasks, and concurrent programming
-
+- `python_async_comprehension` — asynchronous generators, async comprehensions, and generator type annotations
 
 ## Author
 

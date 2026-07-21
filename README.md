@@ -66,6 +66,7 @@ Each project directory has its own `README.md` with task details and file descri
 - `pagination` — simple, hypermedia, and deletion-resilient pagination of a dataset
 - `NoSQL` — MongoDB and PyMongo: querying, inserting, updating, and deleting documents
 - `ES6_basic` — ECMAScript 6 features: block scope, arrow functions, rest/spread, templates, iterators
+- `ES6_classes` — ES6 classes: definition, methods, static methods, inheritance, and metaprogramming with symbols
 
 ## Author
 

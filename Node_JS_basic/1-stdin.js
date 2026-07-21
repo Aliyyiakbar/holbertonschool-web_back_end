@@ -5,9 +5,8 @@ console.log('Welcome to Holberton School, what is your name?');
 process.stdin.on('readable', () => {
   const chunk = process.stdin.read();
   if (chunk !== null) {
-    const name = chunk.trim();
-    if (name) {
-      console.log(`Your name is: ${name}`);
+    if (chunk.trim()) {
+      process.stdout.write(`Your name is: ${chunk}`);
     }
   }
 });

@@ -68,6 +68,7 @@ Each project directory has its own `README.md` with task details and file descri
 - `ES6_basic` — ECMAScript 6 features: block scope, arrow functions, rest/spread, templates, iterators
 - `ES6_classes` — ES6 classes: definition, methods, static methods, inheritance, and metaprogramming with symbols
 - `ES6_data_manipulation` — array methods (map, filter, reduce), typed arrays, Set, Map, and WeakMap data structures
+- `ES6_promise` — Promises: then, resolve, catch, all/allSettled/race, throw/try, await, and async functions
 
 ## Author
 

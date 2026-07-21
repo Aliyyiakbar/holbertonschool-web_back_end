@@ -53,7 +53,7 @@ The project includes the following configuration files:
 - `2-arrow.js` — Arrow functions.
 - `3-default-parameter.js` — Default function parameters.
 - `4-rest-parameter.js` — Rest parameter syntax.
-- `5-spread.js` — Spread syntax.
+- `5-spread-operator.js` — Spread syntax.
 - `6-string-interpolation.js` — Template literals.
 - `7-getBudgetObject.js` — Object property value shorthand.
 - `8-getBudgetCurrentYear.js` — Computed property names.
@@ -61,8 +61,8 @@ The project includes the following configuration files:
 - `10-loops.js` — `for...of` loop.
 - `11-createEmployeesObject.js` — Iterator creation.
 - `12-createReportObject.js` — Report object with iterator.
-- `100-iterate-through-object.js` — Iterating through report objects (advanced).
-- `101-iterate-through-object.js` — Iterate through object (advanced).
+- `100-createIteratorObject.js` — Iterator to go through every employee in every department (advanced).
+- `101-iterateThroughObject.js` — Iterate through object and return employee names separated by | (advanced).
 
 ## Usage
 

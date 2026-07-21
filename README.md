@@ -32,6 +32,15 @@ variable annotations, DOM manipulation, and other backend development concepts.
 - All SQL files must end with a new line
 - SQL files must follow the task format required by the project
 
+### NoSQL Projects
+
+- OS: Ubuntu 20.04 LTS
+- Database: MongoDB 4.4
+- Python driver: `PyMongo` 4.8.0 with `python3` version 3.9
+- MongoDB command files must start with a comment: `// my comment`
+- Python files must start with `#!/usr/bin/env python3` and be `pycodestyle` compliant
+- All files must end with a new line
+
 ### Web Projects
 
 - HTML and CSS files must follow the requirements of each project
@@ -45,6 +54,8 @@ Each project directory has its own `README.md` with task details and file descri
 - `python_variable_annotations` — type annotations, duck typing, mypy validation, and advanced Python typing
 - `python_async_function` — asynchronous execution, coroutines, asyncio tasks, and concurrent programming
 - `python_async_comprehension` — asynchronous generators, async comprehensions, and generator type annotations
+- `pagination` — simple, hypermedia, and deletion-resilient pagination of a dataset
+- `NoSQL` — MongoDB and PyMongo: querying, inserting, updating, and deleting documents
 
 ## Author
 

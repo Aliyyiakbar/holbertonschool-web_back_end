@@ -41,6 +41,15 @@ variable annotations, DOM manipulation, and other backend development concepts.
 - Python files must start with `#!/usr/bin/env python3` and be `pycodestyle` compliant
 - All files must end with a new line
 
+### JavaScript / ES6 Projects
+
+- OS: Ubuntu 20.04 LTS
+- Node.js version: 20.x.x with npm 9.x.x
+- All files must end with a new line
+- JavaScript files use the `.js` extension
+- Code is tested with Jest and linted with ESLint (airbnb-base)
+- All functions must be exported
+
 ### Web Projects
 
 - HTML and CSS files must follow the requirements of each project
@@ -56,6 +65,7 @@ Each project directory has its own `README.md` with task details and file descri
 - `python_async_comprehension` — asynchronous generators, async comprehensions, and generator type annotations
 - `pagination` — simple, hypermedia, and deletion-resilient pagination of a dataset
 - `NoSQL` — MongoDB and PyMongo: querying, inserting, updating, and deleting documents
+- `ES6_basic` — ECMAScript 6 features: block scope, arrow functions, rest/spread, templates, iterators
 
 ## Author
 

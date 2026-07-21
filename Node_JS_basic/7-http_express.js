@@ -9,11 +9,16 @@ app.get('/', (req, res) => {
 
 app.get('/students', (req, res) => {
   const dbPath = process.argv[2];
+  const originalLog = console.log;
+  const output = [];
+  console.log = (...args) => { output.push(args.join(' ')); };
   countStudents(dbPath)
     .then(() => {
-      res.send('This is the list of our students\n');
+      console.log = originalLog;
+      res.send(`This is the list of our students\n${output.join('\n')}`);
     })
     .catch((err) => {
+      console.log = originalLog;
       res.send(`This is the list of our students\n${err.message}`);
     });
 });
